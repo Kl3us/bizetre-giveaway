@@ -3,7 +3,7 @@ const client = new Discord.Client();
 client.commands = new Discord.Collection();
 const fs = require('fs');
 const path = require('path');
-let token = "NzgyMDcxNDgzMDg5NjgyNDMy.X8G20w.C50h7cSB9Oj3JlCAsb1QJP1WjKo"
+let token = "Purple Buraya Tokeni yaz Bot"
 const { GiveawaysManager } = require("discord-giveaways");
 const manager = new GiveawaysManager(client, {
     storage: "./giveaways.json",
